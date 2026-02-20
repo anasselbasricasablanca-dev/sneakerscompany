@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table width="100%" bgcolor="#86f587" border="1">
+<tr>
+<td><h1>MARJANE</h1></td>
+<td><img src="GOHAINA.png" width="1600px" height="120px"></td>	
+</tr>	
+</table>
+<table width="100%" bgcolor="#00ffff">
+	<tr>
+	    <td> <a href="gestoom.html">Gestion client</a></td> 
+		<td>Gestion Fournisseurs</td>
+		<td>Gestion Produit</td>
+	</tr>
+</table>
+<table  bgcolor="#00ffff" width="100%">
+	<tr class="menu">
+	<td><a href="sai_client.html">Saisie</a></td>
+		<td><a href="lis_clients.php">Liste</a></td>
+		<td><a href="rech_clients.php">Modification</a></td>
+		<td><a href="supp_clients.html">Suppression</a></td>
+		<td><a href="acueil.html">Accueil</a></td>
+</table>
+<br>
+<form action=enr_clients.php method="post">
+	<table align="center" bgcolor="cyan" width="75%">
+
+		<tr>
+			<td colspan="2" align="center" style="color: blue"><h1>Saisie des Clients</h1></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>matricule client</h4></td>
+			<td ><input type="text" name="xmat"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Nom</h4></td>
+			<td ><input type="text" name="xnom"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Prenm</h4></td>
+			<td ><input type="text" name="xpre"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Address</h4></td>
+			<td ><input type="text" name="xadr"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Ville</h4></td>
+			<td ><input type="text" name="xvil"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Code Postal</h4></td>
+			<td ><input type="text" name="xcp"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Email</h4></td>
+			<td ><input type="email" name="xema"></td>
+		</tr>
+		<tr style="color: red">
+			<td><h4>Tel</h4></td>
+			<td ><input type="text" name="xtel" ></td>
+		</tr>
+		<tr>
+		<td><input type="submit" value="Ouvrir"></td>	
+		<td><input type="submit" value="Exit"></td>	
+		</tr>
+	</table>
+</form>
+</body>
+</html>
